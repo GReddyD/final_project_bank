@@ -26,6 +26,8 @@ env/
 # MLflow
 mlruns/
 mlartifacts/
+mlflow.db
+.mlflow.pid
 
 # Модели (большие бинарные файлы — при необходимости раскомментировать)
 # models/*.bin
