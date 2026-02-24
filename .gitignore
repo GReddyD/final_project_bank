@@ -1,0 +1,38 @@
+# Данные
+*.csv
+
+# Кэш
+*.cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Модели (большие бинарные файлы — при необходимости раскомментировать)
+# models/*.bin
+
+# Логи
+*.log
+
+# Локальные инструкции (не для репозитория)
+CLAUDE.md
+TECHNICAL_SPEC.md
